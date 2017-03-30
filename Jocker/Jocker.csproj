@@ -92,6 +92,7 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Entities\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -112,6 +113,9 @@
     <Compile Include="Entities\Distribution.cs" />
     <Compile Include="Entities\DistributionCollection.cs" />
     <Compile Include="Entities\Player.cs" />
+    <Compile Include="Exceptions\OrderLastException.cs" />
+    <Compile Include="Exceptions\OrderOverflowException.cs" />
+    <Compile Include="Exceptions\OrderEqualCountException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

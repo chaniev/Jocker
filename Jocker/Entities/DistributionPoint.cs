@@ -15,6 +15,7 @@ namespace Jocker
 		public DistributionPoint(int _maxOrder)
 		{
 			m_maxOrder = _maxOrder;
+			Order = -1;
 		}
 
 		public int Order { get; set; }
