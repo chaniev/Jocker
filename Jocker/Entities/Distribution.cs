@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Jocker
 {
 	public class Distribution
