@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jocker", "Jocker\Jocker.csproj", "{4FB954B0-F890-4359-9DE5-81987010633E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jocker.UnitTests", "Jocker.UnitTests\Jocker.UnitTests.csproj", "{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -19,5 +21,13 @@ Global
 		{4FB954B0-F890-4359-9DE5-81987010633E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{4FB954B0-F890-4359-9DE5-81987010633E}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{4FB954B0-F890-4359-9DE5-81987010633E}.Debug|iPhone.Build.0 = Debug|iPhone
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Release|iPhone.Build.0 = Release|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{4D83AA0F-5B05-4F5D-A23D-42568E5090CD}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
