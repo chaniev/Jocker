@@ -17,7 +17,7 @@ namespace Jocker
 			_playerIndex = playerIndex;
 			_canDark = canDark;
 			_distPoints = new DistributionPoint[playerCount];
-		}Í
+		}
 
 		public DistributionPoint[] DistPoints
 		{
@@ -43,6 +43,11 @@ namespace Jocker
 			_distPoints[player].Order = order;
 			_distPoints[player].IsDark = _canDark && dark;
 		}
+
+        public void SetCout(int player, int count)
+        {
+            _distPoints[player].Count = count;
+        }
 
 		public void CalcPoint()
 		{
