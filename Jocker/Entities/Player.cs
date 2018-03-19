@@ -17,5 +17,10 @@ namespace Jocker
 			var other = obj as Player;
 			return other != null && other.Id == Id;
 		}
+
+        public override int GetHashCode()
+        {
+            return Id.GetHashCode();
+        }
 	}
 }

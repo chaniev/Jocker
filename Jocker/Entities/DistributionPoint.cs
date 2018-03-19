@@ -9,12 +9,12 @@ namespace Jocker
 		private const int OverMultiplier = 10;
 		private const int DarkMultiplier = 2;
 
-		private readonly int m_maxOrder;
+		private readonly int _maxOrder;
 
 
-		public DistributionPoint(int _maxOrder)
+		public DistributionPoint(int maxOrder)
 		{
-			m_maxOrder = _maxOrder;
+			_maxOrder = maxOrder;
 			Order = -1;
 		}
 
@@ -29,14 +29,14 @@ namespace Jocker
 			var result = DefaultMultiplier;
 			if (Count < Order)
 			{
-				if (Count == 0 && Order == m_maxOrder)
+				if (Count == 0 && Order == _maxOrder)
 					result = -Order * TotalMultiplier;
 				else
 					result = -((Order - Count) * DefaultMultiplier + DefaultMultiplier);
 			}
 			if (Count == Order)
 			{
-				if (Order == m_maxOrder)
+				if (Order == _maxOrder)
 					result = Order * TotalMultiplier;
 				else
 					result = Order * DefaultMultiplier + DefaultMultiplier;
